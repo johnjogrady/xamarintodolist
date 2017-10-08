@@ -15,7 +15,7 @@
                        IsEnabled="True"
                        x:Name="syncIndicator"/>
     <StackLayout Grid.Row="0" BackgroundColor="#5ABAFF" Padding="10,30,10,5">
-      <Label TextColor="#555555" Text="Azure App Service" />
+      <Label TextColor="#555555" Text="Today's Jobs" />
       <Grid>
         <Grid.ColumnDefinitions>
           <ColumnDefinition/>
@@ -42,8 +42,9 @@
             </ViewCell.ContextActions>
             <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal" Padding="15,5,0,0">
               <StackLayout Padding="5,0,0,0" VerticalOptions="StartAndExpand" Orientation="Vertical">
-                <Label Text="{Binding Name}"  />
-              </StackLayout>
+                                <Label Text="{Binding Name}"  />
+                                <Label Text="{Binding Done}"  />
+                            </StackLayout>
             </StackLayout>
           </ViewCell>
         </DataTemplate>
