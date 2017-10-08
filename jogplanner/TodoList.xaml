@@ -24,7 +24,7 @@
         <Entry x:Name="newItemName"
                   Placeholder="Item name" />
         <StackLayout x:Name="buttonsPanel" Grid.Column="1" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-          <Button Text="+"
+          <Button Text="Add A New Task"
                   MinimumHeightRequest="30"
                   Clicked="OnAdd" />
         </StackLayout>
